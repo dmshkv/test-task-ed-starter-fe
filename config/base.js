@@ -36,7 +36,7 @@ const webpackConfig = {
     packagePath: `${nodeModules}/bootstrap/`
   },
   devServerPort: process.env.DEV_SERVER_PORT || 8080,
-  apiServerUrl: process.env.API_SERVER_URL || 'http://localhost:8080'
+  apiServerUrl: process.env.API_SERVER_URL || 'http://localhost:8081'
 };
 
 module.exports = webpackConfig;
